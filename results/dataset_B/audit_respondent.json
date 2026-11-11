@@ -1,0 +1,22 @@
+{
+  "rows": 269097,
+  "firms": 13323,
+  "positives": 467,
+  "fraud_firms": 88,
+  "releases": 94,
+  "n_ratio": 54,
+  "n_amount": 25,
+  "test_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "roles": "respondent",
+  "rounds": 1000,
+  "sklearn": "1.9.1",
+  "sha256_financials": "bebb09cef9b4ce9c728353dc63bb179b99f372d38dd70f3b995c7cb03f93f781"
+}

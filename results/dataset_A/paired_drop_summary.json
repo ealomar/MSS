@@ -1,0 +1,146 @@
+{
+  "rusboost_vs_logit_ratio_2003_2008": {
+    "a": "rusboost",
+    "b": "logit_ratio",
+    "crossover_point": 0.02,
+    "crossover_median": 0.045,
+    "crossover_ci": [
+      0.005,
+      0.095
+    ],
+    "share_reps_with_crossover": 0.941,
+    "share_reps_sign_flip_1_vs_10": 0.537
+  },
+  "hgb_vs_logit_ratio_2003_2008": {
+    "a": "hgb",
+    "b": "logit_ratio",
+    "crossover_point": 0.02,
+    "crossover_median": 0.025,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.927,
+    "share_reps_sign_flip_1_vs_10": 0.522
+  },
+  "logit_slog_vs_logit_ratio_2003_2008": {
+    "a": "logit_slog",
+    "b": "logit_ratio",
+    "crossover_point": 0.08,
+    "crossover_median": 0.025,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.61,
+    "share_reps_sign_flip_1_vs_10": 0.244
+  },
+  "rusboost_vs_hgb_2003_2008": {
+    "a": "rusboost",
+    "b": "hgb",
+    "crossover_point": 0.085,
+    "crossover_median": 0.085,
+    "crossover_ci": [
+      0.020125,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.602,
+    "share_reps_sign_flip_1_vs_10": 0.22
+  },
+  "rusboost_vs_logit_slog_2003_2008": {
+    "a": "rusboost",
+    "b": "logit_slog",
+    "crossover_point": 0.075,
+    "crossover_median": 0.07,
+    "crossover_ci": [
+      0.014750000000000013,
+      0.09
+    ],
+    "share_reps_with_crossover": 0.959,
+    "share_reps_sign_flip_1_vs_10": 0.476
+  },
+  "hgb_vs_logit_slog_2003_2008": {
+    "a": "hgb",
+    "b": "logit_slog",
+    "crossover_point": 0.065,
+    "crossover_median": 0.065,
+    "crossover_ci": [
+      0.01,
+      0.095
+    ],
+    "share_reps_with_crossover": 0.931,
+    "share_reps_sign_flip_1_vs_10": 0.477
+  },
+  "rusboost_vs_logit_ratio_2003_2014": {
+    "a": "rusboost",
+    "b": "logit_ratio",
+    "crossover_point": 0.02,
+    "crossover_median": 0.04,
+    "crossover_ci": [
+      0.005,
+      0.095
+    ],
+    "share_reps_with_crossover": 0.869,
+    "share_reps_sign_flip_1_vs_10": 0.339
+  },
+  "hgb_vs_logit_ratio_2003_2014": {
+    "a": "hgb",
+    "b": "logit_ratio",
+    "crossover_point": 0.08,
+    "crossover_median": 0.06,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.804,
+    "share_reps_sign_flip_1_vs_10": 0.411
+  },
+  "logit_slog_vs_logit_ratio_2003_2014": {
+    "a": "logit_slog",
+    "b": "logit_ratio",
+    "crossover_point": 0.1,
+    "crossover_median": 0.0275,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.504,
+    "share_reps_sign_flip_1_vs_10": 0.165
+  },
+  "rusboost_vs_hgb_2003_2014": {
+    "a": "rusboost",
+    "b": "hgb",
+    "crossover_point": 0.085,
+    "crossover_median": 0.075,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.686,
+    "share_reps_sign_flip_1_vs_10": 0.119
+  },
+  "rusboost_vs_logit_slog_2003_2014": {
+    "a": "rusboost",
+    "b": "logit_slog",
+    "crossover_point": 0.06,
+    "crossover_median": 0.065,
+    "crossover_ci": [
+      0.005,
+      0.095
+    ],
+    "share_reps_with_crossover": 0.935,
+    "share_reps_sign_flip_1_vs_10": 0.34
+  },
+  "hgb_vs_logit_slog_2003_2014": {
+    "a": "hgb",
+    "b": "logit_slog",
+    "crossover_point": 0.075,
+    "crossover_median": 0.07,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.877,
+    "share_reps_sign_flip_1_vs_10": 0.48
+  }
+}

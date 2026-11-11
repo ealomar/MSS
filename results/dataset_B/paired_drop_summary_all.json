@@ -1,0 +1,62 @@
+{
+  "rusboost": {
+    "a": "rusboost",
+    "b": "logit_ratio",
+    "crossover_point": 0.095,
+    "crossover_median": 0.005,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.546,
+    "share_reps_sign_flip_1_vs_10": 0.005
+  },
+  "hgb": {
+    "a": "hgb",
+    "b": "logit_ratio",
+    "crossover_point": 0.005,
+    "crossover_median": 0.005,
+    "crossover_ci": [
+      0.005,
+      0.09
+    ],
+    "share_reps_with_crossover": 0.659,
+    "share_reps_sign_flip_1_vs_10": 0.01
+  },
+  "hgb_ratio": {
+    "a": "hgb_ratio",
+    "b": "logit_ratio",
+    "crossover_point": NaN,
+    "crossover_median": 0.005,
+    "crossover_ci": [
+      0.005,
+      0.09
+    ],
+    "share_reps_with_crossover": 0.496,
+    "share_reps_sign_flip_1_vs_10": 0.006
+  },
+  "hgb_amount": {
+    "a": "hgb_amount",
+    "b": "logit_ratio",
+    "crossover_point": NaN,
+    "crossover_median": 0.005,
+    "crossover_ci": [
+      0.005,
+      0.07612499999999997
+    ],
+    "share_reps_with_crossover": 0.112,
+    "share_reps_sign_flip_1_vs_10": 0.002
+  },
+  "logit_amount": {
+    "a": "logit_amount",
+    "b": "logit_ratio",
+    "crossover_point": NaN,
+    "crossover_median": 0.05,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.177,
+    "share_reps_sign_flip_1_vs_10": 0.015
+  }
+}

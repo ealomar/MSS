@@ -1,0 +1,638 @@
+{
+  "paired_hgb_vs_logit_raw_2003_2008": {
+    "a": "hgb",
+    "b": "logit_raw",
+    "crossover_point": 0.005,
+    "crossover_median": 0.01,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.76,
+    "share_reps_sign_flip_1_vs_10": 0.013
+  },
+  "paired_hgb_vs_logit_slog_2003_2008": {
+    "a": "hgb",
+    "b": "logit_slog",
+    "crossover_point": 0.08,
+    "crossover_median": 0.065,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.65,
+    "share_reps_sign_flip_1_vs_10": 0.212
+  },
+  "paired_rusboost_vs_hgb_2003_2008": {
+    "a": "rusboost",
+    "b": "hgb",
+    "crossover_point": 0.085,
+    "crossover_median": 0.085,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.924,
+    "share_reps_sign_flip_1_vs_10": 0.17
+  },
+  "paired_rusboost_vs_logit_raw_2003_2008": {
+    "a": "rusboost",
+    "b": "logit_raw",
+    "crossover_point": 0.005,
+    "crossover_median": 0.01,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.935,
+    "share_reps_sign_flip_1_vs_10": 0.007
+  },
+  "paired_hgb_vs_logit_ratio_2003_2008": {
+    "a": "hgb",
+    "b": "logit_ratio",
+    "crossover_point": 0.08,
+    "crossover_median": 0.025,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.724,
+    "share_reps_sign_flip_1_vs_10": 0.363
+  },
+  "paired_rusboost_vs_logit_ratio_2003_2008": {
+    "a": "rusboost",
+    "b": "logit_ratio",
+    "crossover_point": 0.08,
+    "crossover_median": 0.08,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.929,
+    "share_reps_sign_flip_1_vs_10": 0.379
+  },
+  "selection_2003_2008": {
+    "0.01": {
+      "auc_rule": 4.0,
+      "capacity_rule": 4.0,
+      "diff": 0.0,
+      "diff_ci": [
+        -4.0,
+        5.775000000000006
+      ],
+      "p_cap_rule_better": 0.256,
+      "fixed": {
+        "logit_raw": 3.0,
+        "logit_slog": 5.0,
+        "logit_ratio": 8.0,
+        "hgb": 3.0,
+        "rusboost": 4.0,
+        "rusboost_s10": 4.0
+      },
+      "best_fixed": "logit_ratio",
+      "picks": [
+        [
+          2004,
+          "rusboost_s10",
+          "rusboost"
+        ],
+        [
+          2005,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2006,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2007,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2008,
+          "rusboost",
+          "rusboost"
+        ]
+      ]
+    },
+    "0.03": {
+      "auc_rule": 10.0,
+      "capacity_rule": 11.0,
+      "diff": 1.0,
+      "diff_ci": [
+        -6.0,
+        9.0
+      ],
+      "p_cap_rule_better": 0.512,
+      "fixed": {
+        "logit_raw": 11.0,
+        "logit_slog": 11.0,
+        "logit_ratio": 15.0,
+        "hgb": 13.0,
+        "rusboost": 13.0,
+        "rusboost_s10": 8.0
+      },
+      "best_fixed": "logit_ratio",
+      "picks": [
+        [
+          2004,
+          "rusboost_s10",
+          "logit_slog"
+        ],
+        [
+          2005,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2006,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2007,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2008,
+          "rusboost",
+          "rusboost"
+        ]
+      ]
+    },
+    "0.05": {
+      "auc_rule": 17.0,
+      "capacity_rule": 21.0,
+      "diff": 4.0,
+      "diff_ci": [
+        -7.0,
+        12.0
+      ],
+      "p_cap_rule_better": 0.588,
+      "fixed": {
+        "logit_raw": 18.0,
+        "logit_slog": 21.0,
+        "logit_ratio": 20.0,
+        "hgb": 21.0,
+        "rusboost": 21.0,
+        "rusboost_s10": 11.0
+      },
+      "best_fixed": "logit_slog",
+      "picks": [
+        [
+          2004,
+          "rusboost_s10",
+          "logit_slog"
+        ],
+        [
+          2005,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2006,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2007,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2008,
+          "rusboost",
+          "logit_slog"
+        ]
+      ]
+    },
+    "0.1": {
+      "auc_rule": 47.0,
+      "capacity_rule": 44.0,
+      "diff": -3.0,
+      "diff_ci": [
+        -12.0,
+        10.0
+      ],
+      "p_cap_rule_better": 0.34,
+      "fixed": {
+        "logit_raw": 39.0,
+        "logit_slog": 36.0,
+        "logit_ratio": 41.0,
+        "hgb": 45.0,
+        "rusboost": 50.0,
+        "rusboost_s10": 39.0
+      },
+      "best_fixed": "rusboost",
+      "picks": [
+        [
+          2004,
+          "rusboost_s10",
+          "logit_slog"
+        ],
+        [
+          2005,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2006,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2007,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2008,
+          "rusboost",
+          "rusboost"
+        ]
+      ]
+    }
+  },
+  "paired_hgb_vs_logit_raw_2003_2014": {
+    "a": "hgb",
+    "b": "logit_raw",
+    "crossover_point": 0.08,
+    "crossover_median": 0.045,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.624,
+    "share_reps_sign_flip_1_vs_10": 0.043
+  },
+  "paired_hgb_vs_logit_slog_2003_2014": {
+    "a": "hgb",
+    "b": "logit_slog",
+    "crossover_point": 0.1,
+    "crossover_median": 0.055,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.459,
+    "share_reps_sign_flip_1_vs_10": 0.219
+  },
+  "paired_rusboost_vs_hgb_2003_2014": {
+    "a": "rusboost",
+    "b": "hgb",
+    "crossover_point": 0.085,
+    "crossover_median": 0.085,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.974,
+    "share_reps_sign_flip_1_vs_10": 0.139
+  },
+  "paired_rusboost_vs_logit_raw_2003_2014": {
+    "a": "rusboost",
+    "b": "logit_raw",
+    "crossover_point": 0.08,
+    "crossover_median": 0.07,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.919,
+    "share_reps_sign_flip_1_vs_10": 0.02
+  },
+  "paired_hgb_vs_logit_ratio_2003_2014": {
+    "a": "hgb",
+    "b": "logit_ratio",
+    "crossover_point": 0.095,
+    "crossover_median": 0.025,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.523,
+    "share_reps_sign_flip_1_vs_10": 0.209
+  },
+  "paired_rusboost_vs_logit_ratio_2003_2014": {
+    "a": "rusboost",
+    "b": "logit_ratio",
+    "crossover_point": 0.085,
+    "crossover_median": 0.08,
+    "crossover_ci": [
+      0.005,
+      0.1
+    ],
+    "share_reps_with_crossover": 0.883,
+    "share_reps_sign_flip_1_vs_10": 0.33
+  },
+  "selection_2003_2014": {
+    "0.01": {
+      "auc_rule": 9.0,
+      "capacity_rule": 9.0,
+      "diff": 0.0,
+      "diff_ci": [
+        -6.7749999999999995,
+        6.0
+      ],
+      "p_cap_rule_better": 0.332,
+      "fixed": {
+        "logit_raw": 6.0,
+        "logit_slog": 10.0,
+        "logit_ratio": 12.0,
+        "hgb": 7.0,
+        "rusboost": 9.0,
+        "rusboost_s10": 8.0
+      },
+      "best_fixed": "logit_ratio",
+      "picks": [
+        [
+          2004,
+          "rusboost_s10",
+          "rusboost"
+        ],
+        [
+          2005,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2006,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2007,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2008,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2009,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2010,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2011,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2012,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2013,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2014,
+          "rusboost",
+          "rusboost"
+        ]
+      ]
+    },
+    "0.03": {
+      "auc_rule": 21.0,
+      "capacity_rule": 22.0,
+      "diff": 1.0,
+      "diff_ci": [
+        -9.0,
+        9.0
+      ],
+      "p_cap_rule_better": 0.456,
+      "fixed": {
+        "logit_raw": 20.0,
+        "logit_slog": 20.0,
+        "logit_ratio": 25.0,
+        "hgb": 22.0,
+        "rusboost": 24.0,
+        "rusboost_s10": 16.0
+      },
+      "best_fixed": "logit_ratio",
+      "picks": [
+        [
+          2004,
+          "rusboost_s10",
+          "logit_slog"
+        ],
+        [
+          2005,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2006,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2007,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2008,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2009,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2010,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2011,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2012,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2013,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2014,
+          "rusboost",
+          "rusboost"
+        ]
+      ]
+    },
+    "0.05": {
+      "auc_rule": 34.0,
+      "capacity_rule": 32.0,
+      "diff": -2.0,
+      "diff_ci": [
+        -12.774999999999999,
+        11.0
+      ],
+      "p_cap_rule_better": 0.372,
+      "fixed": {
+        "logit_raw": 37.0,
+        "logit_slog": 32.0,
+        "logit_ratio": 34.0,
+        "hgb": 33.0,
+        "rusboost": 38.0,
+        "rusboost_s10": 22.0
+      },
+      "best_fixed": "rusboost",
+      "picks": [
+        [
+          2004,
+          "rusboost_s10",
+          "logit_slog"
+        ],
+        [
+          2005,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2006,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2007,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2008,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2009,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2010,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2011,
+          "rusboost",
+          "logit_slog"
+        ],
+        [
+          2012,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2013,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2014,
+          "rusboost",
+          "rusboost"
+        ]
+      ]
+    },
+    "0.1": {
+      "auc_rule": 77.0,
+      "capacity_rule": 74.0,
+      "diff": -3.0,
+      "diff_ci": [
+        -13.0,
+        10.775000000000006
+      ],
+      "p_cap_rule_better": 0.364,
+      "fixed": {
+        "logit_raw": 66.0,
+        "logit_slog": 62.0,
+        "logit_ratio": 69.0,
+        "hgb": 68.0,
+        "rusboost": 80.0,
+        "rusboost_s10": 62.0
+      },
+      "best_fixed": "rusboost",
+      "picks": [
+        [
+          2004,
+          "rusboost_s10",
+          "logit_slog"
+        ],
+        [
+          2005,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2006,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2007,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2008,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2009,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2010,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2011,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2012,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2013,
+          "rusboost",
+          "rusboost"
+        ],
+        [
+          2014,
+          "rusboost",
+          "rusboost"
+        ]
+      ]
+    }
+  }
+}
